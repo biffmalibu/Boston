@@ -80,7 +80,11 @@ main img {
 }
 @media only screen and (max-width: 560px) {
     main img {
-        border: none;
         width: 100%;
+    }
+}
+@media only screen and (max-width: 473px) {
+    .info-container {
+        height: 2500px;
     }
 }
