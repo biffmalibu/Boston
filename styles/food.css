@@ -1,3 +1,4 @@
+/* Text Formatting */
 p {
     color: lightgray;
     font-family: 'Staatliches', cursive;
@@ -10,6 +11,8 @@ main h1 {
     color: white;
     text-align: center;
 }
+
+/* Aside Tags */
 aside {
     width: 40%;
     float: left;
@@ -18,17 +21,26 @@ aside {
 aside p {
     font-family: 'Staatliches', cursive;
 }
+
+/* Section */
 section {
     width: 55%;
     float: right;
 }
+
+/* Image container tags */
 .sd-img-container {
     padding: 5vh 0;
     display: flex;
     text-align: center;
     flex-direction: column;
-    
 }
+.image {
+    flex-basis: 30%;
+    padding-bottom: 60px;
+}
+
+/* Text container tags */
 .info-container {
     padding: 5vh 0;
     display: flex;
@@ -39,18 +51,19 @@ section {
 .info-item {
     flex-basis: 30%;
 }
+
+/* List formatting */
 ul li {
     font-family: 'Staatliches', cursive;
     color: white;
 }
-.image {
-    flex-basis: 30%;
-    padding-bottom: 60px;
-}
+
+/* Image formatting */
 main img {
     border: 3px solid lightgray;
     border-radius: 5px;
 }
+/* Media queries */
 @media only screen and (max-width: 1250px) {
     section {
         width: 40%;

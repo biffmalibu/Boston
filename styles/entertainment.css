@@ -1,3 +1,4 @@
+/* Text formatting */
 main h1 {
     margin-top: 1em;
     font-size: 300%;
@@ -10,6 +11,8 @@ p {
     font-family: 'Staatliches', cursive;
     
 }
+
+/* Container for slideshow */
 .entertainment-container {
     padding: 5vh 0;
     display: flex;
@@ -21,6 +24,8 @@ p {
 .entertainment-item {
     flex-basis: 30%;
 }
+
+/* Container for single image/text */
 .container {
     padding: 5vh 0;
     display: flex;
@@ -31,10 +36,8 @@ p {
 .item {
     flex-basis: 20%;   
 }
-.item2 img, main img {
-    border: 3px solid lightgray;
-    border-radius: 5px;
-}
+
+/* Multi Image Container */
 .img-container {
     padding: 5vh 0;
     text-align: center;
@@ -46,6 +49,16 @@ p {
     font-family: 'Staatliches', cursive;
     color: white;
 }
+.shopping-item {
+    flex-basis: 20%;
+}
+
+/* Image formatting */
+.item2 img, main img {
+  border: 3px solid lightgray;
+  border-radius: 5px;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 800px;
@@ -137,6 +150,7 @@ p {
     to {opacity: 1}
   }
 
+  /* Media Queries */
   @media only screen and (max-width: 1230px) {
     .entertainment-container {
         width: 100%;

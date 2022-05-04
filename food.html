@@ -3,21 +3,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
 	<!-- Load BootStrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 	<!-- Import Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
 	<!-- Import Stylesheets -->
 	<link rel="stylesheet" href="styles/main.css">
 	<link rel="stylesheet" href="styles/food.css">
+
 	<!-- Icon -->
 	<link rel="icon" href="images/5bbd94d631a1389cb8aebb4cac93d55d.png">
 	<title>Best of Boston</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="js/jquery.slicknav.min.js"></script>
+
 	<!-- Link Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
 </head>
@@ -49,10 +54,14 @@
         </div>
       </nav>
 	<nav id="mobilemenu"></nav>
+	<!-- End Navbar -->
+
 	<main>
 		
 		<h1>Great Food Spots</h1>
+		<!-- Aside on the left side -->
 		<aside>
+			<!-- Image container -->
 			<div class="sd-img-container">
 				<div class="image">
 					<a href="https://www.quincy-market.com/" target="_blank"><img src="images/quincy-market.jpg" alt=""></a>
@@ -67,9 +76,12 @@
 					<p>Boston Public Market</p>
 				</div>
 			</div>
+			<!-- End Image Container -->
 
 		</aside>
+		<!-- Section on the right side -->
 		<section>
+			<!-- Info Container -->
 			<div class="info-container">
 				<div class="info-item">
 					<h1>Quincy Market</h1>
@@ -93,9 +105,11 @@
 					<p>The Boston Public Market is an indoor, year-round marketplace featuring about 30 New England artisans and food producers housed under one roof offering fresh foods, prepared meals, crafts, and specialty items. Residents and visitors alike can find seasonal, locally sourced food from Massachusetts and New England, including fresh produce, meat and poultry, eggs, dairy, seafood, baked goods, specialty items, crafts, and prepared breakfast, lunch, and dinner options. Everything sold at the Market is produced or originates in New England, as the seasons allow.</p>
 				</div>
 			</div>
+			<!-- End Info Container -->
 		</section>
   	<div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
 	</main>
+	<!-- Return to top script -->
 	<script>
         window.onload = function() {
             var d = new Date();
@@ -120,6 +134,7 @@
            document.documentElement.scrollTop = 0;
          }
      </script>
+	 <!-- Footer -->
 	<footer>
 		<p>&copy; <span id="copyright"></span> Bradford Torpey</p>
 		<img class="footer-img" src="images/3dgifmaker76040.gif">

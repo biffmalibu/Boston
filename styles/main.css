@@ -1,26 +1,17 @@
+/* Universal Selector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Clearfix Class */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-header img {
-    margin-right: 25px;
-}
-ul li {
-    font-family: 'Staatliches', cursive;
-    color: white;
-}
-html {
-    background-image: url(../images/wp3982242.jpg);
-}
-body {
-    background-color: rgba(0, 0, 0, .8);
-}
+/* Header Tags */
 header {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(198,41,249,1) 50%, rgba(255,21,21,1) 100%);
@@ -34,11 +25,34 @@ header h2 {
     margin-top: 15px;
 
 }
+header img {
+    margin-right: 25px;
+}
+
+/* Html */
+html {
+    background-image: url(../images/wp3982242.jpg);
+}
+
+/* Body */
+body {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+/* List formatting */
+ul li {
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+/* Logo formatting */
 #logoimage {
     max-width: 120px;
     width: 100%;
     float: left;
 }
+
+/* Navlist Elements */
 #navlist {
     width: 15%;
     float: left;
@@ -73,6 +87,8 @@ header h2 {
     color: white;
     transition: all .5s;
 }
+
+/* Go to top button */
 #cornerBtn {
     display: none; /* Hidden by default */
     position: fixed;
@@ -102,6 +118,8 @@ header h2 {
     color: red;
     border: 1px solid red;
  }
+
+/* Footer Tag */
 footer {
     font-family: 'Righteous', cursive;
     clear: both;
@@ -115,6 +133,7 @@ footer {
     padding-bottom: 20px;
 }
 
+/* Footer container elements */
 .footer-container {
     padding: 5vh 0;
     text-align: center;
@@ -133,6 +152,8 @@ footer {
 #small-pg {
     font-size: 75%;
 }
+
+/* Media Query */
 @media only screen and (max-width: 820px) {
     .footer-item {
         flex-basis: 20%;

@@ -1,22 +1,4 @@
-section {
-    width: 80%;
-    float: right;
-}
-.shopping-container {
-    padding: 5vh 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    float: right;
-}
-section img {
-    border: 3px solid lightgray;
-    border-radius: 5px;
-}
-.shopping-item {
-    flex-basis: 20%;
-}
+/* Text formatting */
 main h1 {
     margin-top: 1em;
     font-size: 300%;
@@ -26,9 +8,10 @@ main h1 {
 }
 p {
     color: lightgray;
-    font-family: 'Staatliches', cursive;
-    
+    font-family: 'Staatliches', cursive; 
 }
+
+/* Navlist tags */
 #navlist {
     width: 15%;
     float: left;
@@ -63,6 +46,34 @@ p {
     color: black;
     transition: all .5s;
 }
+
+/* Section */
+section {
+    width: 80%;
+    float: right;
+}
+
+/* Shopping container tags */
+.shopping-container {
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+}
+.shopping-item {
+    flex-basis: 20%;
+}
+
+/* Image formatting */
+section img {
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+
+/* Media queries */
 @media only screen and (max-width: 1250px) {
     aside {
         display: none;

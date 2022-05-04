@@ -1,3 +1,16 @@
+/* Text Formatting */
+p {
+    color: lightgray;
+}
+main h1 {
+    margin-top: 1em;
+    font-size: 300%;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-align: center;
+}
+
+/* Image container tags */
 .img-container {
     padding: 5vh 0;
     text-align: center;
@@ -9,20 +22,14 @@
     font-family: 'Staatliches', cursive;
     color: white;
 }
-p {
-    color: lightgray;
-}
-main h1 {
-    margin-top: 1em;
-    font-size: 300%;
-    font-family: 'Staatliches', cursive;
-    color: white;
-    text-align: center;
-}
+
+/* Image formatting */
 main img {
     border: 3px solid lightgray;
     border-radius: 5px;
 }
+
+/* Media queries */
 @media only screen and (max-width: 1400px) {
     .img-container {
         flex-direction: column;
