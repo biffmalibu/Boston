@@ -1,1 +1,1 @@
-# https://biffmalibu.github.io/boston/index.html
+# https://biffmalibu.github.io/Boston/index.html
